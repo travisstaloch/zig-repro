@@ -1,0 +1,11 @@
+.{
+    .name = "zig-repro",
+    .version = "0.0.1",
+
+    .dependencies = .{
+        .flatbuffers = .{
+            .url = "https://github.com/travisstaloch/flatbuffers/archive/0194d8740555a62ccdb280b95930d97e502d0b1d.tar.gz",
+        },
+
+    }
+}
